@@ -1,0 +1,41 @@
+{
+    "usage": {
+        "text_units": 1,
+        "text_characters": 37,
+        "features": 1
+    },
+    "language": "en",
+    "emotion": {
+        "targets": [
+            {
+                "text": "apples",
+                "emotion": {
+                    "sadness": 0.028574,
+                    "joy": 0.859042,
+                    "fear": 0.02752,
+                    "disgust": 0.017519,
+                    "anger": 0.012855
+                }
+            },
+            {
+                "text": "oranges",
+                "emotion": {
+                    "sadness": 0.514253,
+                    "joy": 0.078317,
+                    "fear": 0.074223,
+                    "disgust": 0.058103,
+                    "anger": 0.126859
+                }
+            }
+        ],
+        "document": {
+            "emotion": {
+                "sadness": 0.32665,
+                "joy": 0.563273,
+                "fear": 0.033387,
+                "disgust": 0.022637,
+                "anger": 0.041796
+            }
+        }
+    }
+}

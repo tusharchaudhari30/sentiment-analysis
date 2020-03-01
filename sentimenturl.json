@@ -1,0 +1,22 @@
+{
+    "usage": {
+        "text_units": 1,
+        "text_characters": 1188,
+        "features": 1
+    },
+    "sentiment": {
+        "targets": [
+            {
+                "text": "stocks",
+                "score": 0.279964,
+                "label": "positive"
+            }
+        ],
+        "document": {
+            "score": 0.127034,
+            "label": "positive"
+        }
+    },
+    "retrieved_url": "https://www.wsj.com/news/markets",
+    "language": "en"
+}

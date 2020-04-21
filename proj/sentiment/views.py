@@ -20,7 +20,7 @@ def result(request):
     api = tweepy.API(auth)
     query = request.GET['query']
     data = ''
-    for tweet in tweepy.Cursor(api.search, q=query).items(1):
+    for tweet in tweepy.Cursor(api.search, q=query).items(500):
         data=data+tweet.text
         print(tweet.text)
     authenticator = IAMAuthenticator('')
